@@ -1,0 +1,220 @@
+
+.banner{
+  background: linear-gradient(119.69deg,#0080ff,#00d5ff 82%);
+  width:1534px;
+height:649px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+      color:white;
+      font-size:15px;
+}
+
+.top-left1{
+    color:white;
+    position: absolute;
+    top: 90px;
+    left: 320px;
+    font-size:15px;
+}
+.top-leftimg {
+    position: absolute;
+    top: 90px;
+    left: 268px;
+      color:white;
+}
+.top-left1img{
+    color:white;
+    position: absolute;
+    top: 90px;
+    left: 388px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 90px;
+    right: 280px;
+    color:#ffffff;
+    font-size:18px;
+}
+
+.imagewrap {display:inline-block;position:relative;}
+.button1 {position:absolute;bottom:350px;left:50px;}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 33%;
+}
+.feature-solution{
+  padding: 7% 0 8.2%;
+    padding-top: 7%;
+    padding-right: 0px;
+    padding-bottom: 8.2%;
+    padding-left: 0px;
+}
+.payment-method-section{
+background-color: #f0fafc;
+padding-top: 0;
+}
+.payment-method-section .payment-method-heading{
+padding-top: 5.3%;
+max-width: 1170px;
+margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px;/*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+.grid-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 30px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    color: #121d55;
+    padding: 25px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ffffff;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ffffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+.green-dotted-list{
+  color: #39464d;
+  font-family:sans-serif;
+  left:20%;
+}
+.img-desk{
+left: 100px;
+  position:absolute;
+  border: 0;
+vertical-align: middle;
+max-width: 100%;
+}
+.easily-reconcilation-right{
+  max-width: 400px;
+
+padding-top: 2px;
+  align:right;
+  font-size: 1.2rem;
+ color: #39464d;
+line-height: 1.2;
+}
+.pcolor{
+  color:#00cef7;
+}
+.text1 h5 {
+  font-size: 2.2rem;
+line-height: 2.2rem;
+  margin-left: 2px;
+  color: #121d55;
+line-height: 3.2rem;
+margin-top: 40px;
+margin-bottom: 2px;
+}
+.infop{
+  max-width: 50%;
+line-height: 2.4rem;
+color: #535353;
+font-size: 1.6rem;
+line-height: 2.6rem;
+font-weight: 300;
+}
+.developer-friendly h2{
+  margin-bottom: 7px;
+}
+.h2
+{
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #121d55;
+}
+.developer-friendly p{
+  color: #39464d;
+font-size: 1.6rem;
+line-height: 2.2rem;
+}
+.p{
+  font-size: 1.6rem;
+line-height: 2.6rem;
+font-weight: 300;
+font-family:  sans-serif;
+}
+.developer-friendly h4{
+  font-size: 1.6rem;
+line-height: 2.4rem;
+}
+.h4{
+  background-color: transparent;
+color: #00b4f5;
+transition: .3s;
+}
+.container{
+  background-color:
+}
+.ready-to-start{
+  background-color: #223e99 ;
+  padding-top: 0;
+  padding-top: 6.6%;
+  padding: 7.4% 0 7%;
+    padding-top: 7.4%;
+    display: block;
+}
